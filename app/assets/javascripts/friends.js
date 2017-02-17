@@ -23,7 +23,7 @@ $('#friend-lookup-form').on('ajax:success', function(event, data, status){
   });
 }
 
-$(document).ready(function() {
+$(document).on('turbolinks:load', function() {
 
 init_friend_lookup();
 
